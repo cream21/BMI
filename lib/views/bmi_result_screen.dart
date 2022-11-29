@@ -78,7 +78,7 @@ class BmiResultScreen extends StatelessWidget {
               child: Text(
                 "Hasil Perhitungan",
                 style: TextStyle(
-                  fontSize: 40,
+                  fontSize: 30,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
@@ -130,7 +130,7 @@ class BmiResultScreen extends StatelessWidget {
               Navigator.pop(context);
             },
             child: Container(
-              height: 80,
+              height: 70,
               color: const Color(0xffEC3C66),
               child: const Center(
                 child: Text(
